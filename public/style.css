@@ -31,7 +31,7 @@ input[type="text"]{
   -webkit-transition-delay: 1s;
   -webkit-transition-duration: 2s;
 }
-input[type=text]:hover, input[type=email]:hover, input[type=password]:hover {
+input[type=text]:hover{
     width: 90%;
     height: 99%;
 }
@@ -121,53 +121,9 @@ span.false{
     height: 10px;
     background: #ff5252;
 }
-button{
-    float: right;
-    background: green;
-    border: 0;
-    padding: 5px 10px;
-    color: #fff;
-    display: inline-block;
-    border-radius: 4px;
-    cursor: pointer;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
-    -webkit-transition: all 2s; /* Safari */
-    transition: width 2s;
-    -webkit-transition-delay: 1s;
-    -webkit-transition-duration: 2s;
-   
-}
+
 input[type=text]:focus{
     background-color: #fff;
     border-bottom: 2px solid #5fbae9;
   }
 button.false{display: none;}  
-  .underlineHover:hover {
-    color: #0d0d0d;
-  }
-  
-  .underlineHover:hover:after{
-    width: 100%;
-  }
-  
-  
-  
-  /* OTHERS */
-  
-  *:focus {
-      outline: none;
-  } 
-  
-  #icon {
-    width:60%;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
